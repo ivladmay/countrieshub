@@ -6,7 +6,7 @@ jobs:
   lint_build:
     strategy:
       matrix:
-        node-version: [16, 18]
+        node-version: [20]
         os: [ubuntu-latest]
 
     runs-on: ${{ matrix.os }}
